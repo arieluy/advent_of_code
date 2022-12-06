@@ -18,7 +18,7 @@ impl Solution for Day{0} {{
 }}
 """
 
-MAIN_TEMPLATE = "\taoc22::day{0}::Day{0}::run(args.part, args.use_sample_input);\n"
+MAIN_TEMPLATE = "    aoc22::day{0}::Day{0}::run(args.part, args.use_sample_input);\n"
 
 MOD_TEMPLATE = "pub mod day{0};\n"
 
